@@ -9,7 +9,3 @@ variable "pgp_key" {
 variable "usernames" {
   type = "list"
 }
-
-variable "root_account_id" {
-  type = "string"
-}
