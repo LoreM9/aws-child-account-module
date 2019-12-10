@@ -1,3 +1,3 @@
-output "password" {
-  value = aws_iam_user_login_profile.user.*.encrypted_password
+output "organizations_account_id" {
+  value = aws_organizations_account.organizations_account.*.id
 }

@@ -1,11 +1,15 @@
-variable "organizations_account_id" {
-  type = "string"
+variable "parent_ou" {
+  type = string
+}
+
+variable "organizations_account_name" {
+  type = string
 }
 
 variable "pgp_key" {
-  type = "string"
+  type = string
 }
 
-variable "usernames" {
-  type = "list"
+variable "iam_usernames" {
+  type = list(string)
 }

@@ -10,3 +10,6 @@ crash.log
 
 # IntelliJ IDEA files
 /.idea/
+
+# Other files
+/.DS_Store/
